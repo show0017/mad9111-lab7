@@ -1,0 +1,27 @@
+body{
+    background-color: #223C4C;
+}
+
+.wrapper{
+    background-color: #BDC9D0;
+    width: 95%;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+header{
+    font-size: 3rem;
+}
+
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+
+.table-device-info td:first-child{
+    background-color: #555555;
+    color: #fff;
+    font-style: bold;
+    padding-left: 2%;
+    width: 50%;
+}
