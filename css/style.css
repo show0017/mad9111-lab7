@@ -25,3 +25,7 @@ table{
     padding-left: 2%;
     width: 50%;
 }
+
+.table-device-info td:nth-child(2){
+    padding-left: 2%;
+}
