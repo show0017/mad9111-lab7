@@ -15,15 +15,20 @@ header{
 
 table{
     width:100%;
-    border-collapse: collapse;
+/*    border-collapse: collapse;*/
 }
 
 .table-device-info td:first-child{
-    background-color: #555555;
-    color: #fff;
+/*    background-color: #555555;*/
+/*    color: #fff;*/
     font-style: bold;
     padding-left: 2%;
-    width: 50%;
+    width: 30%;
+    text-align: right;
+    font-weight: bold;
+}
+.table-device-info td:first-child:after {
+    content: ":";
 }
 
 .table-device-info td:nth-child(2){
